@@ -10,7 +10,7 @@ import "dotenv/config";
 async function getBalance() {
   const connection = new Connection(clusterApiUrl("devnet"));
   const address = new PublicKey(
-    process.env.PUBLIC_KEY || "3sx6WXVe7eWqrh4XiWqpvppiHwjL27Kmpxymi4oY3kvv"
+    process.env.PUBLIC_KEY2 || "3sx6WXVe7eWqrh4XiWqpvppiHwjL27Kmpxymi4oY3kvv"
   );
   const balance = await connection.getBalance(address);
   const balanceInSol = balance / LAMPORTS_PER_SOL;
