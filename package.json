@@ -1,0 +1,26 @@
+{
+  "name": "00-intro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "tsc && node dist/server.js",
+    "solana": "npx esrun"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.3.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@solana-developers/helpers": "^2.4.0",
+    "@solana/web3.js": "^1.95.2",
+    "esrun": "^3.2.26",
+    "express": "^4.19.2"
+  }
+}
