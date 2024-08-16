@@ -9,7 +9,7 @@ import {
 } from "@solana/web3.js";
 import "dotenv/config";
 
-async function transfert() {
+async function transfer() {
   const suppliedToPubkey = process.argv[2] || null;
 
   if (!suppliedToPubkey) {
@@ -70,4 +70,4 @@ async function transfert() {
   );
 }
 
-transfert();
+transfer();
